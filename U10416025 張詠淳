@@ -26,7 +26,7 @@ public class RepeatAdditionQuiz {
         System.out.println("這個答案已經輸入過囉!" + answer);
       }
       else {
-        list.add(answer)
+        list.add(answer);
       }
     }
 
