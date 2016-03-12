@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class RepeatAdditionQuiz {
   public static void main(String[] args) {
-    //加入陣列
+    //add array
     ArrayList<Integer> list = new ArrayList<Integer>();
     int number1 = (int)(Math.random() * 10);
     int number2 = (int)(Math.random() * 10);
@@ -21,9 +21,9 @@ public class RepeatAdditionQuiz {
         + number1 + " + " + number2 + "? ");
       answer = input.nextInt();
       
-      //假如使用者輸入重複答案
+      //If user input the same answer
       if (list.contains(answer)) {
-        System.out.println("這個答案已經輸入過囉!" + answer);
+        System.out.println("Your answer is repeat!" + answer);
       }
       else {
         list.add(answer);
